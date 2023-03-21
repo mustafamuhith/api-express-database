@@ -13,4 +13,9 @@ const booksRouter = require('./routers/books.js')
 
 app.use('/books', booksRouter)
 
+
+const petsRouter = require('./routers/pets.js')
+
+app.use('/pets', petsRouter)
+
 module.exports = app
